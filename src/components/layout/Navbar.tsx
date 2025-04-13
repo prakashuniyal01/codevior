@@ -14,9 +14,9 @@ const Navbar = () => {
     { name: "Services", path: "/services" },
     { name: "Portfolio", path: "/portfolio" },
     { name: "Partners", path: "/partners" },
-    { name: "Career", path: "/career" },
     { name: "Tech", path: "/tech" },
     { name: "Contact", path: "/contact" },
+    { name: "Career", path: "/career" },
   ];
 
   const toggleMenu = () => {

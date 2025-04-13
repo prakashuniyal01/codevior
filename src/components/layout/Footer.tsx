@@ -10,7 +10,7 @@ const Footer = () => {
           <div className="space-y-4">
             <Logo />
             <p className="text-sm text-muted-foreground">
-              Providing innovative solutions and exceptional service since 2010.
+              Providing innovative solutions and exceptional service since 2024.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="transition-colors text-muted-foreground hover:text-white">
@@ -83,9 +83,9 @@ const Footer = () => {
           <div>
             <h3 className="mb-4 text-lg font-medium">Contact</h3>
             <address className="not-italic text-muted-foreground">
-              <p>123 Business Street</p>
+              <p>Noida</p>
               <p>City, State 12345</p>
-              <p className="mt-2">contact@company.com</p>
+              <p className="mt-2">support@codevior.com</p>
               <p>+1 (555) 123-4567</p>
             </address>
           </div>

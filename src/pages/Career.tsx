@@ -1,7 +1,7 @@
 import Layout from "@/components/layout/Layout";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
-import { Briefcase, CheckCircle, Users, Coffee, Clock, BarChart } from "lucide-react";
+import { Briefcase,  Users, Coffee, Clock, BarChart } from "lucide-react";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 
 const Career = () => {
