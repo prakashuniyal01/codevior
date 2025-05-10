@@ -21,19 +21,19 @@ const HeroSection = () => {
       
       {/* UI content is placed outside the ThreeCanvas but inside the section */}
       <motion.div 
-        className="absolute bottom-12 left-1/2 transform -translate-x-1/2 z-10 w-full max-w-md"
+        className="absolute z-10 w-full max-w-md transform -translate-x-1/2 bottom-12 left-1/2"
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.5, duration: 0.8 }}
       >
-        <div className="flex flex-col sm:flex-row gap-4 justify-center">
+        {/* <div className="flex flex-col justify-center gap-4 sm:flex-row">
           <Button size="lg" onClick={() => navigate('/contact')}>
             Get Started
           </Button>
           <Button size="lg" variant="outline" onClick={() => document.getElementById('services-section')?.scrollIntoView({ behavior: 'smooth' })}>
             Explore Services
           </Button>
-        </div>
+        </div> */}
       </motion.div>
     </ThreeDSection>
   )
